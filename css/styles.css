@@ -7,8 +7,6 @@ body{
 	background: #1E1F25;
 }
 h1{
-
-
   text-transform: uppercase;
   cursor: pointer;
   color: #ebebeb;
@@ -46,6 +44,13 @@ li:hover {
 li:active {
   transform: translateY(4px);
 }
+a{
+  text-decoration: none;
+}
+a:visited{
+  color:#ebebeb
+}
+
 
 @keyframes spring {
   15% {
