@@ -48,9 +48,20 @@ a{
   text-decoration: none;
 }
 a:visited{
-  color:#ebebeb
+  padding: 1rem 2rem 1.15rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: #ebebeb;
+  min-width: 80px;
+  margin: auto;
 }
+a:hover{
+  
+  color: #27262c;
 
+
+
+}
 
 @keyframes spring {
   15% {
