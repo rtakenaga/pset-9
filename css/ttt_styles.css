@@ -2,24 +2,24 @@
 /*It was important to make sure that it worked for mobile phones as well*/
 body {
   text-align: center;
-  background-image: url("../images/background.jpg");
+  background-color: #1E1F25;
   background-size: cover;
   font-family: 'Montserrat', sans-serif;
-  color: black;
+  color: white;
 }
 
 h1 {
   margin: 0 auto;
   font-family: 'Montserrat', sans-serif;
   font-size: 70px;
-  color: black;
+  color: white;
   margin: 2%;
 }
 
 h2, h3 {
   font-size: 36px;
   font-weight: bold;
-  color: black;
+  color: white;
   margin: 2%;
 }
 
@@ -30,7 +30,7 @@ table {
 }
 
 th, td {
-    border: 2px solid black;
+    border: 2px solid white;
     background-image: url("../images/wood-texture.jpg");
     background-size: cover;
     height: 30px;
@@ -58,7 +58,7 @@ th, td {
 }
 
 .square {
-  border: 1px solid black;
+  border: 1px solid white;
   font-size: 96px;
   height: 150px;
   line-height: 150px;
@@ -70,8 +70,8 @@ th, td {
 #reset-button {
   background-image: url("../images/wood-texture.jpg");
   background-size: cover;
-  border: 3px solid black;
-  color: black;
+  border: 3px solid white;
+  color: white;
   font-size: 21px;
   line-height: 55px;
   margin: 1%;
@@ -86,8 +86,8 @@ th, td {
     margin-bottom: 30px;
     background-image: url("../images/wood-texture.jpg");
     background-size: cover;
-    border: 3px solid black;
-    color: black;
+    border: 3px solid white;
+    color: white;
     font-size: 50px;
     text-align: center;
     width: 75px;
@@ -101,8 +101,8 @@ th, td {
     margin-top: 20px;
     background-image: url("../images/wood-texture.jpg");
     background-size: cover;
-    border: 3px solid black;
-    color: black;
+    border: 3px solid white;
+    color: white;
     font-size: 20px;
     text-align: center;
     width: 200px;
@@ -116,7 +116,6 @@ th, td {
 #reset-button:active, #change-order-button:active, #reset-score-button:active {
   transform: scale(0.99);
 }
-
 
 
 
@@ -135,4 +134,20 @@ li{
   color: #ebebeb;
   min-width: 80px;
   margin: auto;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+li a {
+  color: white;
+  text-decoration: none;
+   padding: 14px 16px;
+
+}
+li a:hover:not(.active) {
+  background-color: #D5D5D5 ;
+}
+
+.active {
+  background-color: #FF7433;
 }
