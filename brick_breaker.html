@@ -1,29 +1,33 @@
+<!DOCTYPE html>
 
-<!DOCTYPE HTML>
 <html>
-<head>
-<meta charset="utf-8">
-  <title>UCVTS Gaming Center</title>
-<link href="css/brickBreaker.css" rel="stylesheet" type="text/css" />
 
-  <script defer src="JS/brickBreaker.js"></script>
+<head>
+
+  <link href="css/brick_breaker_styles.css" rel="stylesheet" type="text/css" />
+  <script defer src="js/brick_breaker_app.js"></script>
+
+  <title>Brick Breaker</title>
 </head>
 
 <body>
 
-<div class="wrapper">
-
-  <div class="top">
-
+  <div>
+    <ul id="head">
+      <li class="taskbar"><a  href="index.html">Home</a></li>
+      <li class="taskbar"><a  href="tic_tac_toe.html">Tic-Tac-Toe</a></li>
+      <li class="taskbar"><a href="brick_breaker.html" class="active">Brick Breaker</a></li>
+      <li class="taskbar"><a  href="connect_4.html">Connect Four</a></li>
+    </ul>
   </div>
+  <center>
+    <h1>Brick Breaker</h1>
+    <h2>Use the arrow keys to move the paddle!</h2>
+  </center>
 
-  <div class="menu">
-
-</div>
-  <h1>| Brick | Breaker |</h1>
-
-<canvas id="gameCanvas" width="1000" height="600"></canvas>
-  <br></br>
-<a href="https://afosantos1.github.io/pset-9/index.html">Return To Home Page</a>
+  <canvas width="800px" height="500px" id="canvas_for_game"></canvas>
+  <center>
+  </center>
 </body>
+
 </html>
