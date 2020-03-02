@@ -263,7 +263,6 @@ function redFirst(){
   turn = "Red";
   first = "Red"
 
-
 }
 
 function yellowFirst(){
