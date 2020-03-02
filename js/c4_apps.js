@@ -169,7 +169,6 @@ if (board[index] === "") {
     board[index] = turn;
 
   }
-
   }
   else if (board[index] !== "") {
     if (board[row1] === "") {
