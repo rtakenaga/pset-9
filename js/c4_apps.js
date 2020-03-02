@@ -247,7 +247,6 @@ function playAgain() {
 }
 
 
-
 function resetScoreboard() {
   redWins = 0;
   yellowWins = 0;
