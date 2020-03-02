@@ -180,7 +180,6 @@ if (board[index] === "") {
         document.getElementById("dot" + row1 + "").classList.remove(turn);
         board[row1] = "";
         row1 = i;
-
       }
       if (board[row1] === "") {
         document.getElementById("dot" + row1 + "").classList.add(turn);
