@@ -24,6 +24,7 @@ var canvas = document.getElementById("canvas_for_game");
 	var lives= 3;
 
 
+
 	var bricks = [];
 	for(c = 0; c < brickColumnCount; c++) {
 		bricks[c] = [];
