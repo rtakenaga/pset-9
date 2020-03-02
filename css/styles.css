@@ -13,7 +13,7 @@ h1{
 	min-width: 80px;
 	margin: auto;
   text-align: center;
-  padding: 10px 0px 0px 0px;
+  padding: 20px 0px 0px 0px;
 	font-family: 'Montserrat', sans-serif;
 }
 
@@ -56,11 +56,12 @@ a{
 }
 
 li:hover{
-
   color: #27262c;
-
 }
 
+.games{
+	color:#FF7433;
+}
 @keyframes spring {
   15% {
     -webkit-transform-origin: center center;
