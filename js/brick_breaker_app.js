@@ -112,6 +112,7 @@ var canvas = document.getElementById("canvas_for_game");
 		}
 	}
 
+
 	function drawScore() {
 		ctx.font = scoreFont;
 		ctx.fillStyle = scoreFillStyle;
