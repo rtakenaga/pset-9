@@ -129,7 +129,6 @@ function init() {
   render();
 }
 
-
 function render() {
   board.forEach(function(mark, index) {
     dots[index].textContent = mark;
@@ -169,7 +168,7 @@ if (board[index] === "") {
     board[index] = turn;
 
   }
-  
+
   }
   else if (board[index] !== "") {
     if (board[row1] === "") {
