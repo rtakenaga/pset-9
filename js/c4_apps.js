@@ -207,7 +207,6 @@ if (board[index] === "") {
 }
 }
 
-
 function getWinner() {
   let winner = null;
 
