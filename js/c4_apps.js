@@ -195,7 +195,6 @@ if (board[index] === "") {
    }
 
 
-
   turn = turn === "Red" ? "Yellow" : "Red";
   win = getWinner();
   if (win === "T") {
