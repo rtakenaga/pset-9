@@ -40,6 +40,7 @@ var canvas = document.getElementById("canvas_for_game");
 	document.addEventListener("keydown", keyDownHandler, false);
 	document.addEventListener("keyup", keyUpHandler, false);
 
+
 	function drawBall() {
 		ctx.beginPath();
 		ctx.arc(x, y, ballRadius, 0, Math.PI*2);
