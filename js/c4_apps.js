@@ -187,7 +187,6 @@ if (board[index] === "") {
         board[row1] = turn;
 
       }
-
     }
     else if (board[row1] !== "") {
       return false;
